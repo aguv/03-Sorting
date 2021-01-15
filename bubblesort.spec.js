@@ -19,8 +19,8 @@ describe('Bubble Sort', function(){
 
     it('array 5-2-6-10-3 deberia usar 6 swaps para ordenar de men a may', function() {
         myLib.bubbleSort(array);
-        console.log(myLib.swapItems.calls.count())
         expect(myLib.swapItems.calls.count()).toEqual(6);
     });
     
 }); 
+
